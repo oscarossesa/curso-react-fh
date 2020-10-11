@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Curso React: De cero a experto
 
-## Available Scripts
+# Sección 4: Primeros pasos en React
 
-In the project directory, you can run:
+¿Qué veremos en esta sección?
 
-### `npm start`
+- Nuestra primera aplicación - Hola Mundo
+- Exposiciones sobre los componentes
+- Creación de componentes (Functional Components)
+- Propiedades - Props
+- Impresiones en el HTML
+- PropTypes
+- DefaultProps
+- Introducción general a los Hooks
+- useState
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Es una sección importante, especialmente para todos los que están 
+empezando de cero en React, ya que dará las bases de cómo segmentar la 
+lógica de nuestra aplicación en pequeñas piezas más fáciles de mantener.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## ¿Qué es un componente?
 
-### `npm test`
+Es una pequeña pieza de código encapsulada re-utilizable que puede tener estado o no.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Sección 5: Pruebas unitarias y de integración - Probando las secciones anteriores
 
-### `npm run build`
+- ¿Qué veremos en esta sección?
+- Introducción a las pruebas
+- AAA
+- Arrange - Arreglar
+- Act - Actuar
+- Assert - Afirmar
+- Primeras pruebas
+- Jest
+- Expect
+- toBe
+- Enzyme
+- Comandos útiles en la terminal para pruebas
+- Revisar elementos renderizados en el componente
+- Simular eventos
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esta sección de pruebas es sumamente importante porque nos dará la base 
+de las pruebas que estaremos haciendo durante el curso, las pruebas irán 
+creciendo en complejidad, por lo que les recomiendo que nos aseguremos 
+de comprender bien todos estos conceptos para que nos sea más fácil las 
+siguientes secciones de pruebas.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Sección 6: GifExpertApp - Aplicación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+¿Qué veremos en esta sección?
 
-### `npm run eject`
+- Custom Hooks
+- Fetch hacia un API
+- Comunicación entre componentes
+- Clases de CSS
+- Animaciones
+- Enviar métodos como argumentos
+- Crear listados
+- keys
+- Giphy
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Esta es una aplicación pequeña pero muy ilustrativa que explica cómo 
+utilizar React + customHooks para poder resolver necesidades en 
+específico que podremos re-utilizar después.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Sección 7: Sección 7:Generando el build de producción y despliegues en Github Pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+¿Qué veremos en esta sección?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Aprender cómo realizar backups a repositorios de Git
+- Subir nuestro repositorio a GitHub
+- Uso de Github Pages
+- Desplegar nuestra aplicación de React
+- Generar build de producción de nuestra aplicación
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Aunque es una sección pequeña, les puede servir para desplegar infinidad de proyectos de React de forma gratuita, sin contar que tendrán respaldos de sus proyectos por si llegan a perder su trabajo que tenían localmente en su computadora.
