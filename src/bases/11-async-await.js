@@ -21,7 +21,7 @@ const getImagen = async() => {
 
   try {
     const apiKey = 'wLdpjbX2u9soMZ5o5BOgZQ0onDEe8hfk';
-    const resp = await fetch(`http://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
+    const resp = await fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
     const { data } = await resp.json();
     const { url } = data.images.original
     const img = document.createElement('img');

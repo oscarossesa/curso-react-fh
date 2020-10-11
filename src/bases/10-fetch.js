@@ -1,6 +1,6 @@
 const apiKey = 'wLdpjbX2u9soMZ5o5BOgZQ0onDEe8hfk';
 
-const peticion = fetch(`http://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
+const peticion = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
 
 // peticion.then(resp => {
 //   resp.json().then(data => {
