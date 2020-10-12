@@ -106,7 +106,10 @@ de pruebas sumamente interesante después.
 Error:
 
 ```log
-index.js:1 Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
+index.js:1 Warning: Can't perform a React state update on an unmounted 
+component. This is a no-op, but it indicates a memory leak in your 
+application. To fix, cancel all subscriptions and asynchronous tasks
+in a useEffect cleanup function.
     in MultipleCustomHooks (at RealExampleRef.js:11)
 ```
 
@@ -124,7 +127,9 @@ https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect
 - [x] Aplicación de TODOs
 - [x] CRUD local
 
-Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es sumamente importante para poder entrar a Redux o bien usar el contextAPI fácilmente.
+Esta es una sección dedicada a comprender el concepto de un Reducer, 
+el cual es sumamente importante para poder entrar a Redux o bien usar 
+el contextAPI fácilmente.
 
 ## ¿Qué es un Reducer?
 
@@ -137,6 +142,23 @@ Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es
 ## useReducer
 
 https://es.reactjs.org/docs/hooks-reference.html#usereducer
+
+# Sección 11: Profundizando Hooks - useContext
+
+¿Qué veremos en esta sección?
+
+- [x] Context
+- [x] Provider
+- [x] useContext
+- [x] React Router
+- [x] Links y NavLinks
+- [x] CreateContext
+- [x] SPA ( Single Page Application )
+
+El objetivo de la sección es principalmente aprender sobre el Context, 
+el Router es un valor agregado que explotaremos mucho más en próximas 
+secciones, pero al usar un Router, podemos explicar claramente el 
+problema y necesidad del context.
 
 # Utilidades
 
