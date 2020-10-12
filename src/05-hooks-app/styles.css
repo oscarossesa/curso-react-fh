@@ -5,3 +5,7 @@ body {
 .Root button {
   margin-right: 5px;
 }
+
+blockquote {
+  display: flex;
+}

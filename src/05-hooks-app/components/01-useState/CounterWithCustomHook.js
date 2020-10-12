@@ -1,6 +1,5 @@
 import React from 'react'
 import { useCounter } from '../../hooks/useCounterWithFactor'
-import './counter.css'
 
 const CounterWithCustomHook = () => {
 

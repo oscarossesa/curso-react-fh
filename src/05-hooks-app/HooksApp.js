@@ -10,6 +10,8 @@ import CallBackHook from './components/06-memos/CallBackHook'
 import MemoHook from './components/06-memos/MemoHook'
 import Memorize from './components/06-memos/Memorize'
 
+import './styles.css'
+
 const HooksApp = () => {
   return (
     <div>

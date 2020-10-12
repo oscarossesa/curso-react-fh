@@ -2,8 +2,6 @@ import React, { useLayoutEffect, useRef, useState } from 'react'
 import { useCounter } from '../../hooks/useCounter'
 import { useFetch } from '../../hooks/useFetch'
 
-import './layout.css'
-
 const Layout = () => {
 
   const { counter, increment } = useCounter(1)
