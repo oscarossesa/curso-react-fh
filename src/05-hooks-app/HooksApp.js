@@ -6,6 +6,9 @@ import SimpleForm from './components/02-useEffect/SimpleForm'
 import MultipleCustomHooks from './components/03-examples/MultipleCustomHooks'
 import RealExampleRef from './components/04-useRef/RealExampleRef'
 import Layout from './components/05-useLayoutEffect/Layout'
+import CallBackHook from './components/06-memos/CallBackHook'
+import MemoHook from './components/06-memos/MemoHook'
+import Memorize from './components/06-memos/Memorize'
 
 const HooksApp = () => {
   return (
@@ -24,6 +27,12 @@ const HooksApp = () => {
       <hr />
       <Layout />
       <hr />
+      <Memorize />
+      <hr />
+      <MemoHook />
+      <hr />
+      <CallBackHook />
+      <hr />      
     </div>
   )
 }

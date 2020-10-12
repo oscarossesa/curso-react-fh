@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom'
 // import PrimeraApp from './01-intro-react/PrimeraApp';
 // import CounterApp from './03-counter-app/CounterApp';
 // import GifExpertApp from './04-gif-expert-app/GifExpertApp';
-import HooksApp from './05-hooks-app/HooksApp';
+// import HooksApp from './05-hooks-app/HooksApp';
+import TareaMemo from './05-hooks-app/TareaMemo';
 
 
 const divRoot = document.querySelector('#root'); 
@@ -35,4 +36,9 @@ const divRoot = document.querySelector('#root');
 /*
   Cuarta Aplicación: HooksApp
 */
-ReactDOM.render(<HooksApp />, divRoot);
+// ReactDOM.render(<HooksApp />, divRoot);
+
+/*
+  Quinta Aplicación: Tarea Memo
+*/
+ReactDOM.render(<TareaMemo />, divRoot);
