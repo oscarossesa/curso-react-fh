@@ -94,6 +94,13 @@ en su computadora.
 - [x] useMemo
 - [x] useCallback
 
+Estos son los Hooks relativamente simples, aún hay mas que explicaremos 
+más adelante, pero en esta sección nos enfocaremos en estos trabajos y 
+para qué nos pueden servir.
+
+Adicionalmente estaremos dejando las bases para lo que será una sección 
+de pruebas sumamente interesante después.
+
 ## useRef
 
 Error:
@@ -102,13 +109,6 @@ Error:
 index.js:1 Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
     in MultipleCustomHooks (at RealExampleRef.js:11)
 ```
-
-Estos son los Hooks relativamente simples, aún hay mas que explicaremos 
-más adelante, pero en esta sección nos enfocaremos en estos trabajos y 
-para qué nos pueden servir.
-
-Adicionalmente estaremos dejando las bases para lo que será una sección 
-de pruebas sumamente interesante después.
 
 # Sección 10:  Profundizando Hooks - useReducer
 
@@ -128,7 +128,7 @@ Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es
 2. Debe ser una función pura
 3. Debe retornar un nuevo estado
 4. Usualmente sólo recibe dos argumentos
-  - El valor inicial (initialState) y la acción a ejecutar
+   4.1 El valor inicial (initialState) y la acción a ejecutar
 
 # Utilidades
 
