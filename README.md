@@ -110,6 +110,10 @@ index.js:1 Warning: Can't perform a React state update on an unmounted component
     in MultipleCustomHooks (at RealExampleRef.js:11)
 ```
 
+## useLayoutEffect
+
+https://es.reactjs.org/docs/hooks-reference.html#uselayouteffect
+
 # Sección 10:  Profundizando Hooks - useReducer
 
 ¿Qué veremos en esta sección?
