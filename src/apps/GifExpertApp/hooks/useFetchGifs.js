@@ -7,7 +7,7 @@ export const useFetchGifs = (category) => {
     loading: true
   })
 
-  const [images, setImages] = useState([])
+  // const [images, setImages] = useState([])
   
   useEffect(() => {
     getFetchGifts(category)
