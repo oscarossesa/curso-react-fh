@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import PrimeraApp from './apps/PrimeraApp/PrimeraApp';
-// import CounterApp from './apps/CounterApp/CounterApp';
-// import GifExpertApp from './apps/GifExpertApp/GifExpertApp';
-import HooksApp from './apps/HooksApp/HooksApp';
+// import PrimeraApp from './01-intro-react/PrimeraApp';
+// import CounterApp from './03-counter-app/CounterApp';
+// import GifExpertApp from './04-gif-expert-app/GifExpertApp';
+import HooksApp from './05-hooks-app/HooksApp';
 
 
 const divRoot = document.querySelector('#root'); 
