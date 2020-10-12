@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import TodoApp from './05-hooks-app/components/08-useReducer/TodoApp';
 // import PrimeraApp from './01-intro-react/PrimeraApp';
 // import CounterApp from './03-counter-app/CounterApp';
 // import GifExpertApp from './04-gif-expert-app/GifExpertApp';
 // import HooksApp from './05-hooks-app/HooksApp';
-import TareaMemo from './05-hooks-app/TareaMemo';
-
+// import TareaMemo from './05-hooks-app/TareaMemo';
 
 const divRoot = document.querySelector('#root'); 
 
@@ -41,4 +41,11 @@ const divRoot = document.querySelector('#root');
 /*
   Quinta Aplicación: Tarea Memo
 */
-ReactDOM.render(<TareaMemo />, divRoot);
+// ReactDOM.render(<TareaMemo />, divRoot);
+
+// import './05-hooks-app/components/08-useReducer/intro-reducer'
+
+/*
+  Sexta Aplicación: Tarea Memo
+*/
+ReactDOM.render(<TodoApp />, divRoot);

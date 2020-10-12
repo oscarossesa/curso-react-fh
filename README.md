@@ -134,6 +134,10 @@ Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es
 4. Usualmente sólo recibe dos argumentos
    4.1 El valor inicial (initialState) y la acción a ejecutar
 
+## useReducer
+
+https://es.reactjs.org/docs/hooks-reference.html#usereducer
+
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
