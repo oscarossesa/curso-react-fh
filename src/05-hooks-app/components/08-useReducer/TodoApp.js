@@ -45,6 +45,15 @@ const TodoApp = () => {
     reset()
   }
 
+  const handleDelete = (todoId) => {
+    const action = {
+      type: 'DELETE',
+      payload: todoId
+    }
+
+    dispatch(action)
+  }
+
   return (
     <div>
       <h1>TodoApp ({todos.length})</h1>
@@ -61,7 +70,10 @@ const TodoApp = () => {
                   <p className="text-center">
                     {i + 1}. {todo.desc}
                   </p>
-                  <button className="btn btn-danger">Borrar</button>
+                  <button 
+                    className="btn btn-danger"
+                    onClick={() => handleDelete(todo.id)}
+                  >Borrar</button>
                 </li>
               ))
             }
@@ -83,9 +95,7 @@ const TodoApp = () => {
             <button
               type="submit"
               className="btn btn-outline-primary mt-1 btn-block"
-            >
-              Agregar
-            </button>
+            >Agregar</button>
           </form>
         </div>
       </div>
