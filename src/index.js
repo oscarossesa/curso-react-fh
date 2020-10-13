@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom'
 // import HooksApp from './05-hooks-app/HooksApp';
 // import TareaMemo from './05-hooks-app/TareaMemo';
 // import TodoApp from './05-hooks-app/components/08-useReducer/TodoApp';
-import MainApp from './05-hooks-app/components/09-useContext/MainApp';
+// import MainApp from './05-hooks-app/components/09-useContext/MainApp';
+import HeroesApp from './07-heroes-app/HeroesApp';
 
 const divRoot = document.querySelector('#root'); 
 
@@ -54,4 +55,9 @@ const divRoot = document.querySelector('#root');
 /*
   Séptima Aplicación: MainApp
 */
-ReactDOM.render(<MainApp />, divRoot);
+// ReactDOM.render(<MainApp />, divRoot);
+
+/*
+  Octaba Aplicación: HeroesApp
+*/
+ReactDOM.render(<HeroesApp />, divRoot);

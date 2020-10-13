@@ -160,6 +160,44 @@ el Router es un valor agregado que explotaremos mucho más en próximas
 secciones, pero al usar un Router, podemos explicar claramente el 
 problema y necesidad del context.
 
+# Sección 12: Pruebas unitarias y de integración - Hooks
+
+¿Qué veremos en esta sección?
+
+- [x] Pruebas sobre Hooks y CustomHooks
+- [x] Ese es el tema principal, demostrar cómo podemos evaluar cada unos de 
+- [x] los hooks aplicados anteriormente con sus casos reales de uso.
+
+Hay varios extras, como la prueba de un Reducer, que realmente no es 
+nada complicado, también quiero aclarar qué nos toca evaluar a 
+nosotros y qué no es responsabilidad nuestra.
+
+# Sección 13: Bonus: Repositorio de Custom Hooks
+
+¿Qué veremos en esta sección?
+
+- [x] Subir código a nuestro repositorio
+- [x] Tener un listado de customHooks y código que podemos reutilizar
+- [x] Una idea para mantener tu repositorio ordenado con ejemplos
+
+No es una sección obligatoria, pero puede ayudarles a tener su código 
+ordenado y fácil de utilizar en proyectos futuros.
+
+# Sección 14: HeroesApp - Single Page Application (SPA)
+
+¿Qué veremos en esta sección?
+
+- [x] SPA ( Single Page Application ) a profundidad
+- [x] Diferentes temas en la misma aplicación aplicados a diferentes rutas
+- [x] Multiples Routers
+- [x] Push y Replace en el History
+- [x] Leer argumentos por URL
+- [x] QueryParams
+- [x] Aplicar filtros utilizando QueryStrings
+
+En esta sección aún no haremos protección de rutas, pero dejaremos el estilo de esos componentes listos para la siguiente sección.
+Aquí quiero enfocarme en la funcionalidad de la aplicación suponiendo que estamos autenticados.
+
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
