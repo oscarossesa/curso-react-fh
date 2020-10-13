@@ -19,11 +19,11 @@ const SearchScreen = ({ history }) => {
 
   return (
     <div>
-      <h1>SearchScreen</h1>
+      <h1>Search</h1>
       <hr />
       <div className="row">
         <div className="col-5">
-          <h4>Search Form</h4>
+          <h4>Search Superhero</h4>
           <hr />
           <form>
             <input 
