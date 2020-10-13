@@ -198,6 +198,19 @@ ordenado y fácil de utilizar en proyectos futuros.
 En esta sección aún no haremos protección de rutas, pero dejaremos el estilo de esos componentes listos para la siguiente sección.
 Aquí quiero enfocarme en la funcionalidad de la aplicación suponiendo que estamos autenticados.
 
+# Sección 15: Protección de rutas
+
+¿Qué veremos en esta sección?
+
+- [x] Rutas públicas
+- [x] Rutas privadas
+- [x] Login y logout - Sin backend aún
+- [x] Recordar cuál fue la última ruta visitada para mejorar la experiencia de usuario.
+- [x] Context
+- [x] Reducer
+
+Esta es una sección pequeña pero importante para trabajar las bases de la autenticación y protección de nuestra aplicación.
+
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
