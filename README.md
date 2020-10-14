@@ -272,3 +272,7 @@ la misma a lo largo de toda la aplicación.
 - [x] Redux: https://es.redux.js.org/
 - [x] React Redux: https://react-redux.js.org/ install: npm install react-redux redux
 - [x] React Redux Devtools: https://github.com/zalmoxisus/redux-devtools-extension#usage
+- [x] Firebase: https://firebase.google.com/
+- [x] Tutorial Firebase: https://www.youtube.com/playlist?list=PLCKuOXG0bPi29EkcAuVCln9ISbExcQk66
+
+
