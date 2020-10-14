@@ -195,8 +195,10 @@ ordenado y fácil de utilizar en proyectos futuros.
 - [x] QueryParams
 - [x] Aplicar filtros utilizando QueryStrings
 
-En esta sección aún no haremos protección de rutas, pero dejaremos el estilo de esos componentes listos para la siguiente sección.
-Aquí quiero enfocarme en la funcionalidad de la aplicación suponiendo que estamos autenticados.
+En esta sección aún no haremos protección de rutas, pero dejaremos el 
+estilo de esos componentes listos para la siguiente sección. Aquí quiero 
+enfocarme en la funcionalidad de la aplicación suponiendo que estamos 
+autenticados.
 
 # Sección 15: Protección de rutas
 
@@ -209,9 +211,43 @@ Aquí quiero enfocarme en la funcionalidad de la aplicación suponiendo que esta
 - [x] Context
 - [x] Reducer
 
-Esta es una sección pequeña pero importante para trabajar las bases de la autenticación y protección de nuestra aplicación.
+Esta es una sección pequeña pero importante para trabajar las bases de la 
+autenticación y protección de nuestra aplicación.
+
+# Sección 17: JournalApp - SASS - Estructura y Diseño
+
+¿Qué veremos en esta sección?
+
+- [x] SASS
+- [x] Diseño completo de la aplicación de forma manual
+- [x] Uso de funciones de SASS
+- [x] Configuración y uso de parciales
+- [x] Transiciones en SASS
+
+Esta sección está totalmente enfocada en aprender a utilizar SASS para 
+crear nuestro estilo de la aplicación, la cual haremos todo nosotros 
+de absoluto cero.
+
+# Sección 18:Redux - ¿Qué es y conceptos?
+
+¿Qué veremos en esta sección?
+
+- [x] Redux
+- [x] Store
+- [x] Middlewares
+- [x] Dispatch
+- [x] Actions
+- [x] State
+- [x] Acciones asíncronas
+
+Es una sección sumamente pequeña, pero quiero darles una explicación teórica 
+sobre Redux antes de entrar en él, pero la ventaja es que para estas alturas, 
+ya deberíamos de saber sobre el Reducer, el cual es el corazón del Redux, por 
+consecuencia aprender Redux en este instante debería ser más fácil!
 
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
 - [x] Animaciones: https://animate.style/
+- [x] Sass: https://sass-lang.com/documentation
+- [x] font-awesome: https://cdnjs.com/libraries/font-awesome

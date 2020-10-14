@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom'
 // import TareaMemo from './05-hooks-app/TareaMemo';
 // import TodoApp from './05-hooks-app/components/08-useReducer/TodoApp';
 // import MainApp from './05-hooks-app/components/09-useContext/MainApp';
-import HeroesApp from './07-heroes-app/HeroesApp';
+// import HeroesApp from './07-heroes-app/HeroesApp';
+import JournalApp from './08-journal-app/JournalApp';
 
 const divRoot = document.querySelector('#root'); 
 
@@ -31,17 +32,17 @@ const divRoot = document.querySelector('#root');
 // ReactDOM.render(<CounterApp value={10} />, divRoot);
 
 /*
-  Tercera Aplicación: GifExpertApp
+  Cuarta Aplicación: GifExpertApp
 */
 // ReactDOM.render(<GifExpertApp />, divRoot);
 
 /*
-  Cuarta Aplicación: HooksApp
+  Hooks
 */
 // ReactDOM.render(<HooksApp />, divRoot);
 
 /*
-  Quinta Aplicación: Tarea Memo
+  Tarea Memo
 */
 // ReactDOM.render(<TareaMemo />, divRoot);
 
@@ -53,11 +54,16 @@ const divRoot = document.querySelector('#root');
 // ReactDOM.render(<TodoApp />, divRoot);
 
 /*
-  Séptima Aplicación: MainApp
+  MainApp
 */
 // ReactDOM.render(<MainApp />, divRoot);
 
 /*
-  Octaba Aplicación: HeroesApp
+  Septima Aplicación: HeroesApp
 */
-ReactDOM.render(<HeroesApp />, divRoot);
+// ReactDOM.render(<HeroesApp />, divRoot);
+
+/*
+  Octaba Aplicación: JournalApp
+*/
+ReactDOM.render(<JournalApp />, divRoot);

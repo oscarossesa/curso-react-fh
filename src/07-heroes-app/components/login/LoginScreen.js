@@ -10,6 +10,7 @@ const LoginScreen = ({ history }) => {
     
     const lastPath = localStorage.getItem('lastPath') || '/'
     console.log(lastPath)
+    
     dispatch({
       type: types.login,
       payload: {
