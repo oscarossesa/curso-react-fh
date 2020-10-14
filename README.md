@@ -228,7 +228,7 @@ Esta sección está totalmente enfocada en aprender a utilizar SASS para
 crear nuestro estilo de la aplicación, la cual haremos todo nosotros 
 de absoluto cero.
 
-# Sección 18:Redux - ¿Qué es y conceptos?
+# Sección 18: Redux - ¿Qué es y conceptos?
 
 ¿Qué veremos en esta sección?
 
@@ -245,9 +245,30 @@ sobre Redux antes de entrar en él, pero la ventaja es que para estas alturas,
 ya deberíamos de saber sobre el Reducer, el cual es el corazón del Redux, por 
 consecuencia aprender Redux en este instante debería ser más fácil!
 
+# Sección 19: Introducción a Redux y autenticación en Firebase
+
+¿Qué veremos en esta sección?
+
+- [x] Redux aplicado en nuestro proyecto
+- [x] Firebase
+- [x] FireStore
+- [x] Redux Devtools
+- [x] Thunk
+- [x] Formularios
+- [x] Google SingIn
+- [x] Acciones Asíncronas
+- [x] Mantener el estado de la autenticación
+
+En esta sección configuraremos Redux en nuestro proyecto por primera vez, 
+aplicado al inicio en la parte de la autenticación y mantener el estado de 
+la misma a lo largo de toda la aplicación.
+
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
 - [x] Animaciones: https://animate.style/
 - [x] Sass: https://sass-lang.com/documentation
 - [x] font-awesome: https://cdnjs.com/libraries/font-awesome
+- [x] Redux: https://es.redux.js.org/
+- [x] React Redux: https://react-redux.js.org/ install: npm install react-redux redux
+- [x] React Redux Devtools: https://github.com/zalmoxisus/redux-devtools-extension#usage
