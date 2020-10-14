@@ -9,9 +9,9 @@ const LoginScreen = () => {
   const dispatch = useDispatch()
   const { loading } = useSelector(state => state.ui)
 
-  const [ formValues, handleInputChange ] = useForm({
-    email: 'oscar',
-    password: '123'
+  const [formValues, handleInputChange] = useForm({
+    email: 'test1@gmail.com',
+    password: '123456'
   })
 
   const { email, password } = formValues
@@ -22,7 +22,6 @@ const LoginScreen = () => {
   }
 
   const handleGoogleLogin = (e) => {
-    e.preventDefault()
     dispatch(startGoogleLogin(email, password))
   }
 
@@ -68,9 +67,9 @@ const LoginScreen = () => {
             </p>
           </div>
         </div>
-        <Link 
-        className="link"
+        <Link
           to="/auth/register"
+          className="link"
         >
           Create new account
         </Link>

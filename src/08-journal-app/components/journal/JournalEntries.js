@@ -8,9 +8,9 @@ const JournalEntries = () => {
   return (
     <div className="journal__entries">
       {
-        entries.map(value => (
+        entries.map((value) => (
           <JournalEntry
-            Key={value}
+            key={value}
           />
         ))
       }
