@@ -275,5 +275,6 @@ la misma a lo largo de toda la aplicación.
 - [x] Firebase: https://firebase.google.com/
 - [x] Tutorial Firebase: https://www.youtube.com/playlist?list=PLCKuOXG0bPi29EkcAuVCln9ISbExcQk66
 - [x] Redux Thunk: https://www.npmjs.com/package/redux-thunk
+- [x] Validator: https://www.npmjs.com/package/validator
 
 
