@@ -7,10 +7,11 @@ import {
 import { useDispatch } from 'react-redux'
 import { firebase } from '../firebase/firebase-config'
 import { login } from '../actions/authActions';
+import { startLoadingNotes } from '../actions/notesAction'
 import AuthRouter from './AuthRouter';
 import PrivateRouter from './PrivateRoute';
-import JournalScreen from '../components/journal/JournalScreen';
 import PublicRoute from './PublicRoute';
+import JournalScreen from '../components/journal/JournalScreen';
 
 
 const AppRouter = () => {
@@ -20,13 +21,19 @@ const AppRouter = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   useEffect(() => {
-    firebase.auth().onAuthStateChanged((user) => {
+    firebase.auth().onAuthStateChanged( async (user) => {
 
       if (user?.uid) {
+
         dispatch(login(user.uid, user.displayName))
         setIsLoggedIn(true)
+
+        dispatch(startLoadingNotes(user.uid))
+
       } else {
+
         setIsLoggedIn(false)
+
       }
 
       setChecking(false)
@@ -34,7 +41,7 @@ const AppRouter = () => {
   }, [dispatch, setChecking])
 
   if(checking) {
-    return <h1>Espere...</h1>
+    return <h1>Loading...</h1>
   }
 
   return (

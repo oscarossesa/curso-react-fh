@@ -263,6 +263,18 @@ En esta sección configuraremos Redux en nuestro proyecto por primera vez,
 aplicado al inicio en la parte de la autenticación y mantener el estado de 
 la misma a lo largo de toda la aplicación.
 
+# Sección 20: JournalApp - Redux - CRUD en Firestore y subida de archivos
+
+- [x] ¿Qué veremos en esta sección?
+- [x] CRUD hacia Firestore
+- [x] Expandiendo nuestro estore añadiendo otros reducers
+- [x] Seleccionar y subir archivos
+- [x] Animaciones adicionales a nuestra aplicación
+- [x] Limpieza en el logout
+
+Esta sección está enfocada ahora en las entradas de nuestro diario, 
+asegurándose de que grabe únicamente en el documento del usuario autenticado.
+
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
@@ -276,5 +288,7 @@ la misma a lo largo de toda la aplicación.
 - [x] Tutorial Firebase: https://www.youtube.com/playlist?list=PLCKuOXG0bPi29EkcAuVCln9ISbExcQk66
 - [x] Redux Thunk: https://www.npmjs.com/package/redux-thunk
 - [x] Validator: https://www.npmjs.com/package/validator
+- [x] Sweet Alert 2: https://sweetalert2.github.io/
+- [x] momentjs: https://momentjs.com/
 
 
