@@ -290,5 +290,7 @@ asegurándose de que grabe únicamente en el documento del usuario autenticado.
 - [x] Validator: https://www.npmjs.com/package/validator
 - [x] Sweet Alert 2: https://sweetalert2.github.io/
 - [x] momentjs: https://momentjs.com/
+- [x] cloudinary: https://cloudinary.com/
+
 
 
