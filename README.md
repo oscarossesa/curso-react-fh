@@ -275,6 +275,67 @@ la misma a lo largo de toda la aplicación.
 Esta sección está enfocada ahora en las entradas de nuestro diario, 
 asegurándose de que grabe únicamente en el documento del usuario autenticado.
 
+# Sección 22: MERN Calendar - Estructura y Diseño
+
+¿Qué veremos en esta sección?
+
+- [x] Estructura y diseño de nuestra aplicación de Calendario
+- [x] Uso de componentes de terceros
+- [x] Modals
+- [x] Configuración de Redux
+- [x] CRUD local
+- [x] Preparación de pantallas para futuras secciones
+- [x] Uso de MomentJS
+- [x] Manejo de fechas
+
+Esta sección es el inicio de nuestro MERN, (Mongo Express React Node), 
+luego crearemos nuestro backend y después regresaremos a esta app para 
+conectarla y desplegarla en producción
+
+# Sección 23: CalendarApp - Backend - Node, Express, Mongo
+
+¿Qué veremos en esta sección?
+
+- [x] Node
+- [x] Express
+- [x] Mongoose
+- [x] Modelos
+- [x] Controllers
+- [x] Middlewares de Express
+- [x] JWT
+- [x] Autenticación pasiva
+- [x] Payloas
+- [x] Encriptación
+- [x] Rutas
+- [x] CORS
+- [x] Revalidar tokens
+- [x] MongoDB
+- [x] MongoAtlas
+- [x] MongoCompass
+
+Es una sección bastante pesada en el aspecto de que no es React lo que 
+veremos, pero todo lo haremos con JavaScript, y ya debemos de estar 
+familiarizados con él.
+
+El backend que haremos aquí es robusto y lo podrían utilizar en proyectos 
+reales, espero que lo aprovechen y sobre todo aprendan bastante.
+
+Si quieren saber más sobre Node, recuerden que tengo un curso especializado 
+en ese tema.
+
+# Sección 24: Backend - Eventos del calendario - CRUD
+
+¿Qué veremos en esta sección?
+
+- [x] CRUD completo de eventos de calendario
+- [x] Modelos
+- [x] Validaciones automáticas
+- [x] Validaciones personalizadas
+
+Aquí trabajaremos creando todo lo necesario para que podamos insertar, actualiza
+y eliminar información relacionada a los eventos que nuestra aplicación del 
+calendario necesitará.
+
 # Utilidades
 
 - [x] Breaking Bad API: https://breakingbadapi.com/
@@ -293,4 +354,6 @@ asegurándose de que grabe únicamente en el documento del usuario autenticado.
 - [x] cloudinary: https://cloudinary.com/
 
 
+Backend
 
+- [x] CORS: https://www.npmjs.com/package/cors
